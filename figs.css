@@ -1,0 +1,632 @@
+﻿body
+{
+    font-family: Verdana;
+    margin: 50px 0 auto 0;
+}
+
+a
+{
+    color: #82cd65;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #74b75a;
+}
+
+#outer_div
+{
+    width: 100%;
+    padding: 30px 0 30px 0;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    background: #eefaea;
+    border-top: solid 2px #def4d5;
+    border-bottom: solid 2px #def4d5;
+}
+
+ul.MainMenuStyle
+{
+    width: 500px;
+    padding: 5px 0 5px 0;
+    margin: 0 auto 0 auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+ul.MainMenuStyle li
+{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    background: #adcdcd;
+    color: #566666;
+}
+
+ul.MainMenuStyle li:hover, ul.MainMenuStyle a:hover
+{
+    background: #566666;
+    color: #bdeaac;
+}
+
+ul.MainMenuStyle a
+{
+    text-decoration: none;
+    display: block;
+    color: #566666;
+}
+
+#blank_outer_table
+{
+    width: 700px;
+    margin: 20px auto 20px auto;
+    padding: 5px;
+    font-family: Verdana, Sans-Serif;   
+    font-size: 12px;
+    color: #566666;
+}
+
+#outer_table
+{
+    width: 775px;
+    margin: 20px auto 20px auto;
+    padding: 5px;
+    border: solid 4px #e2e9e2;
+    background-color: #f3faf2;
+    font-family: Verdana, Sans-Serif;   
+    font-size: 12px;
+    color: #566666;
+}
+
+#outer_table h2, #blank_outer_table h2, h2
+{
+    font-weight: bold;
+    font-size: 17px;
+    color: #bdeaac;
+    display: block;
+    background: #7c9393;
+    padding: 10px;
+    margin: 4px;
+}
+
+h4
+{
+    padding: 4px;
+    margin: 0;
+    color: #566666;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#outer_table td, #blank_outer_table td
+{
+    vertical-align: top;
+}
+
+.Divider
+{
+    border-bottom: solid 2px #e2e9e2;
+    width: 100%;
+    display: block;
+}
+
+.BigDivider
+{
+    border-bottom: solid 4px #adcdcd;
+    width: 100%;
+    display: block;
+}
+
+p.detail
+{
+    font-family: Verdana, Sans-Serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    color: #657d5c;
+    margin: 2px 0 0 0;
+}
+
+#options_table
+{
+	text-align: left;
+}
+
+.shadedOptions_area
+{
+    background: #e2e9e2;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.DDLStyle, .InputStyle, input[type="Text"]
+{
+    background: #adcdcd;
+    border: solid 1px #7c9393;
+    color: #566666;
+    font-family: Verdana, Sans-Serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.InputStyle:hover, input[type="Text"]:hover
+{
+    background: #bfd8d6;
+}
+
+.InputStyle:focus, input[type="Text"]:focus
+{
+    border: solid 1px #9bc08d;
+    background: #bdeaac;
+}
+
+.ModalInputStyle
+{
+    border: solid 1px #acd49c;
+    background: #d3f1c7;
+}
+.ModalInputStyle:hover
+{
+    background: #dcfbcf;
+}
+.ModalInputStyle:focus
+{
+    background: #dcfbcf;
+    border: solid 1px #9bc08d;
+}
+
+input[type="button"], .ButtonStyle
+{
+    border: solid 2px #444444;
+    background-color: #566666;
+    color: #bdeaac;
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.DDLStyle:focus
+{
+    border: solid 1px #9bc08d;
+    background: #bdeaac;
+}
+
+.GVStyle
+{
+    width: 725px;
+    
+}
+
+.GVHeaderStyle
+{
+    background: #7c9393;
+    color: #bdeaac;
+    padding: 4px;
+    margin: 4px;
+    text-align: center;
+}
+.GVHeaderStyle a
+{
+	color: #bdeaac;
+	text-decoration: none;
+}
+
+.GVButtonItemStyle
+{
+    margin: 2px 2px 0 2px;
+    padding: 2px;
+    background: #adcdcd;
+    color: #566666;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+}
+
+.GVButtonItemStyle a
+{
+    text-decoration: none;
+    display: block;
+    color: #566666;
+}
+
+.GVButtonItemStyle:hover, .GVButtonItemStyle a:hover
+{
+    background: #566666;
+    color: #bdeaac;
+}
+
+.GVItemStyle
+{
+    padding: 2px;
+    background: #dddddd;
+    color: #888888;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 2px;
+}
+
+.GVPagerStyle
+{
+    background: #7c9393;
+    color: #bdeaac;
+}
+
+.GVPagerStyle a
+{
+    color: #bdeaac;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: solid 1px #566666;
+}
+.GVPagerStyle a:hover
+{
+   border-bottom: solid 1px #d3e2d4;
+}
+
+.NotObtainedStyle
+{
+    color: #666666;
+    font-style: italic;
+}
+
+.PendingStyle
+{
+	color: #543834;
+	font-style: italic;
+}
+
+.ResizableStyle
+{
+    color: #543834;
+    font-weight: bold;
+}
+
+.IndicatorStyle
+{
+    background: #7c9393;
+    color: #f3faf2;
+    font-style: italic;
+    font-weight: bold;
+    padding: 4px;
+    margin: 4px;
+    display: block;
+    width: 725px;
+}
+
+.TotalStyle
+{
+    width: 725px;
+    padding: 4px 0 0 0;
+    text-align: right;
+}
+
+.ImgIndicatorStyle
+{
+    padding: 4px 0 0 12px;
+    float: left;
+    text-align: left;
+}
+
+.Formview_tbl
+{
+    width: 765px;
+    color: #566666;
+}
+
+.Formview_tbl td
+{
+    vertical-align: top;
+    padding: 5px;
+    text-align: left;
+}
+
+.FormviewLbl, .TotalStyle span
+{
+    font-weight: bold;
+    color: #7c9393;
+}
+
+.LoginStatusStyle
+{
+    background: #e9f0e9;
+    padding: 4px;
+    width: 150px;
+    font-size: 10px;
+    color: #566666;
+}
+.BlankLoginStatusStyle
+{
+	padding: 4px;
+    width: 150px;
+    font-size: 10px;
+    color: #566666;
+}
+
+
+.ValidatorCalloutStyle
+{
+    background-color: #de968c;
+}
+
+.ValidatorCalloutStyle div, .ValidatorCalloutStyle td
+{
+    background-color: #de968c;
+    border: solid 1px #6b4843;
+    color: #6b4843;
+    font-family: Verdana, Sans-Serif;
+    font-size: 9px;
+    font-weight: bold;
+    padding: 0;
+}
+
+/*** Overriding this class to prevent text from overlapping the icon ***/
+
+.ajax__validatorcallout_error_message_cell
+{
+    background-color: #de968c;
+    text-align: right;
+} 
+
+
+/*** Calendar Extender styling. 
+    I am overriding the following pre-defined classes in order to customize this control ***/ 
+
+.ajax__calendar_body, .ajax__calendar_container, .ajax__calendar_days, .ajax__calendar_other, ajax__calendar
+{
+    background: transparent;
+}
+
+.ajax__calendar_day
+{
+    color: #bdeaac;
+    background: #566666;
+    border: solid 1px #adcdcd !important;
+}
+
+.ajax__calendar_hover .ajax__calendar_day
+{
+    background: #adcdcd !important;
+}
+
+ajax__calendar_hover *
+{
+	color: #739393 !important;
+}
+
+.ajax__calendar_other .ajax__calendar_day
+{
+	border: none !important;
+}
+
+.ajax__calendar_dayname
+{
+    font-weight:bold;
+    color: #7c9393;
+}
+
+.ajax__calendar_header, .ajax__calendar_today, .ajax__calendar_footer
+{
+    background: #bdeaac;
+    color: #566666;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.modalStyle
+{
+    border: solid 2px #9bc08d;
+    background: #bdeaac;
+    padding: 5px;
+    text-align: center;
+    color: #566666;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.modalStyle .resultStyle
+{
+    font-size: 12px;
+    font-style: italic;
+}
+.modalStyle .largerStyle
+{
+    font-size: 11px;
+}
+
+.modalStyle .warningStyle
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #66322b;
+    margin: 5px;
+}
+
+
+.tooltipStyle
+{
+	border: solid 2px #9bc08d;
+    background: #bdeaac;
+    padding: 5px;
+    text-align: left;
+    color: #566666;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.QLTooltipStyle
+{
+    background: #adcdcd;
+    border: solid 1px #7c9393;
+    padding: 5px;
+    text-align: left;
+    color: #566666;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p.copyright
+{
+    padding: 2px 0 10px 0;
+    margin: 0;
+    color: #657d5c;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SummaryBtnFakePosition
+{
+	text-align: right; 
+	position: relative;
+	top: -40px;
+	left: 242px;
+}
+
+.FVIndicatorStyle
+{
+    color: #7c9393;
+    font-size: 11px;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+    /* In case I want to give it a background */
+    display: block;
+    width: 200px;
+}
+
+.InnerFV_tbl
+{
+    text-align: left;
+    width: 200px;
+    background: #e9f0e9;
+    color: #566666;
+    padding: 6px;
+    width: 200px;
+    border: solid 1px #e2e9e2;
+}
+
+ol.OrderedListStyle, ol.TOCListStyle
+{
+    margin: 0 0 0 10px;
+    padding: 0 0 0 20px;
+}
+ol.OrderedListStyle li
+{
+    list-style-type: decimal;
+    margin: 5px 0 5px 0;
+}
+ol.OrderedListStyle li ol
+{
+    padding: 0 0 0 20px;
+    margin: 5px 0 5px 0;
+}
+ol.OrderedListStyle li ol li
+{
+    list-style-type: lower-alpha;
+}
+
+ol.OrderedListStyle li ol li ol li
+{
+    list-style-type: lower-roman;
+}
+
+ul
+{
+    margin: 0 0 0 10px;
+    padding: 0 0 0 20px;
+}
+ul li, ol.OrderedListStyle li ul li
+{
+    margin: 5px 0 5px 0;
+    list-style-type: square;
+}
+
+.IndentedMemo
+{
+    font-style: italic;
+    margin: 0 10px 0 10px;
+}
+
+ol.TOCListStyle li
+{
+    list-style-type:upper-roman;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+.CollapsePanelText
+{
+	color: #82cd65;
+    font-weight: bold;
+}
+
+.QLMenuStyle
+{
+	background: #e2e9e2;
+    padding: 5px;
+    text-align: right;
+    color: #566666;
+    font-size: 10px; 
+}
+
+.QLMenuStyle a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #7c9393;
+}
+.QLMenuStyle a:hover
+{
+	color: #566666;
+}
+
+.CountdownStyle
+{
+    color: #89645d;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.CountdownWarningStyle
+{
+    color: #66322b;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+td.CountdownCell
+{
+    width: 100%;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 10px 0 10px;
+    font-size: 10px;
+}
+
+ a.ImagesLink
+{
+    color: #7c9393;
+}
+a.ImagesLink:hover
+{
+    color: #566666;
+}
+
+.ListImagePnlStyle
+{
+    padding: 5px;
+}
+
+.ImageStyle
+{
+    border: solid 1px #566666;
+}
